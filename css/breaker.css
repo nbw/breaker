@@ -1,0 +1,91 @@
+.breakerContainer{
+	z-index: 0;
+	position: relative;
+}
+.paddle {
+	opacity: 0;
+	border-bottom: 2px red solid;
+	height: 0px;
+	background-color: red;
+	position:absolute;
+	z-index:1;
+	-webkit-transition: opacity 2.5s, width 1s; /* Safari */
+    transition: opacity 2.5s, width 1s;
+}
+.ball {
+	opacity: 0;
+	border-radius: 100px;
+	position:absolute;
+	background-color: #ddd;
+	background-color: red;
+	z-index:1;
+	-webkit-transition: opacity 2.5s, width .75s, height .75s; /* Safari */
+    transition: opacity 2.5s, width .75s, height .75s;
+}
+.ball.active, .paddle.active {
+	opacity: 1;
+}
+.brickGroup .brick{
+	-webkit-transition: color 2.5s, background-color 3s; /* Safari */
+    transition: color 2.5s, background-color 3s;
+}
+/*brick colors*/
+.brickGroup.active .brick:not(.powerup){
+	color: #25B44B;
+	background-color: #25B44B;
+}
+.brickGroup.active .brick:not(.powerup):nth-child(2n+0){
+	color: #57D979;
+	background-color:#57D979;
+}
+.brickGroup.active:nth-child(2n+0) .brick:not(.powerup){
+	color: #FF6159;
+	background-color: #FF6159;	
+}
+.brickGroup.active:nth-child(2n+0) .brick:not(.powerup):nth-child(2n+0){
+	color: #FF8B85;
+	background-color: #FF8B85;	
+}
+
+.brickGroup.active:nth-child(3n+0) .brick:not(.powerup){
+	color: #2172D3;
+	background-color: #2172D3;
+}
+.brickGroup.active:nth-child(3n+0) .brick:not(.powerup):nth-child(2n+0){
+	color: #599BEA;
+	background-color: #599BEA;
+}
+.brick.powerup, .brick.powerup.active{
+	padding: 0 1px 0 1px;
+	margin : 0 -1px 0 -1px;
+	-webkit-transition: color 3s, background-color 3s, opacity 0.75s; /* Safari */
+    transition: color 3s, background-color 3s, opacity 0.75s;
+}
+.brick.powerup.active{
+	color: #FFFC84;
+	background-color: #FF3F35;
+}
+.brick.powerup.active:nth-child(2n+0) {
+	background-color: #467DF2;
+}
+.brick.powerup.active:nth-child(3n+0) {
+	background-color: #5ACCF1;
+}
+.brick.powerup.active:nth-child(4n+0) {
+	background-color: #7D6AF4;
+}
+.brick.powerup.active:nth-child(5n+0) {
+	background-color: #F05FD4;
+}
+.dead, .hidden {
+	opacity: 0;
+}
+.breakerTextBar {
+	cursor: pointer;
+	-webkit-transition: opacity 0.75s; /* Safari */
+    transition: opacity 0.75s;
+    text-align: center;
+} 
+.breakerTextBar:hover {
+	color: #555555;
+}

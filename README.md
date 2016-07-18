@@ -6,5 +6,5 @@
   <li>written with <a href="http://knockoutjs.com/">Knockoutjs</a> and Jquery.</li>
   <li>works by taking a container div as an input and rendering any words inside as blocks</li>
 </ul>
-<h3>Demo: <a href="http://resume.nathanwillson.com/po/po.html">HERE</a></h3>
+<h3>Demo: <a href="http://resume.nathanwillson.com/breaker/help.html">HERE</a></h3>
 

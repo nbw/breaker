@@ -9,5 +9,5 @@
 </ul>
 <h3>Demo: <a href="http://resume.nathanwillson.com/breaker/help.html">HERE</a></h3>
 
-![screenie](screenshots/bss2.png?raw=true)
+![screenie_2](screenshots/bss2.png?raw=true)
 

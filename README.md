@@ -1,3 +1,4 @@
+![screenie](screenshots/bss3.png?raw=true)
 <h1>BREAKER</h1>
 <p>
   Class breaker game inspired by the idea of making help pages fun. Certain key words act as powerup blocks. 
@@ -8,5 +9,6 @@
 </ul>
 <h3>Demo: <a href="http://resume.nathanwillson.com/breaker/help.html">HERE</a></h3>
 
-![screenie](breaker-screenshot.png?raw=true)
+![screenie](screenshots/bss2.png?raw=true)
+![screenie](screenshots/bss.png?raw=true)
 

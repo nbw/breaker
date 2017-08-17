@@ -10,5 +10,4 @@
 <h3>Demo: <a href="http://resume.nathanwillson.com/breaker/help.html">HERE</a></h3>
 
 ![screenie](screenshots/bss2.png?raw=true)
-![screenie](screenshots/bss.png?raw=true)
 

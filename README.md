@@ -14,7 +14,7 @@
   <li>Written with <a href="http://knockoutjs.com/">Knockoutjs</a> and Jquery.</li>
 </ul>
 
-[Click here for a demo](http://resume.nathanwillson.com/breaker/help.html)
+**[Click here for a demo](http://resume.nathanwillson.com/breaker/help.html)**
 
 ![screenie_2](screenshots/bss2.png?raw=true)
 

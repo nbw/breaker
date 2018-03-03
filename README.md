@@ -1,13 +1,20 @@
-![screenie](screenshots/bss3.png?raw=true)
+[![screenie](screenshots/bss3.png?raw=true)](http://resume.nathanwillson.com/breaker/help.html)
+
 <h1>BREAKER</h1>
+
 <p>
   Class breaker game inspired by the idea of making help pages fun. Certain key words act as powerup blocks. 
 </p>
+
+<p>
+  Originally created for [Bandcamp](https://bandcamp.com) help documents -- to spice them up a little. :)
+</p>
+
 <ul>
-  <li>written with <a href="http://knockoutjs.com/">Knockoutjs</a> and Jquery.</li>
-  <li>works by taking a container div as an input and rendering any words inside as blocks</li>
+  <li>Written with <a href="http://knockoutjs.com/">Knockoutjs</a> and Jquery.</li>
 </ul>
-<h3>Demo: <a href="http://resume.nathanwillson.com/breaker/help.html">HERE</a></h3>
+
+[Click here for a demo](http://resume.nathanwillson.com/breaker/help.html)
 
 ![screenie_2](screenshots/bss2.png?raw=true)
 
